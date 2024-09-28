@@ -7,12 +7,12 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "hello-kitty-funcky-sam-12"
+        "IMAGES_BUCKET": "hello-kitty-function-sam-12"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
-      "filename": null,
-      "function_name": "hello-kitty-funcky-sam-12",
+      "filename": "stackgen",
+      "function_name": "hello-kitty-function-sam-12",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
@@ -20,7 +20,7 @@
       "role": "${module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn}",
       "runtime": "python3.8",
       "s3_bucket": "stackgen-builds",
-      "s3_key": "build/app.build",
+      "s3_key": "build/app.zip",
       "s3_object_version": null,
       "source": "./modules/aws_lambda",
       "system_log_level": null,
