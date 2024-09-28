@@ -7,12 +7,12 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "hello-kitty-funcky-sam-12"
+        "IMAGES_BUCKET": "hello-kitty-function-sam-12"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
-      "filename": null,
-      "function_name": "hello-kitty-funcky-sam-12",
+      "filename": "stackgen",
+      "function_name": "hello-kitty-functoin-sam-12",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
