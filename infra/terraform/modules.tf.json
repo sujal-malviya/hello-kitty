@@ -11,7 +11,7 @@
       },
       "event_source_arn": null,
       "event_source_mapping": [],
-      "filename": "stackgen",
+      "filename": "",
       "function_name": "hello-kitty-function-sam-12",
       "handler": "main.lambda_handler",
       "log_format": null,
